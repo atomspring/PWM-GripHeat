@@ -3247,12 +3247,6 @@
 		(uuid "0523d33d-9d3d-4c03-b6b3-d5f4df713e72")
 	)
 	(junction
-		(at 144.78 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0885e28d-f917-4116-97f6-7d508db5825a")
-	)
-	(junction
 		(at 157.48 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3389,6 +3383,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f624beb-bbc3-4ee5-8670-02667e31c7d1")
+	)
+	(junction
+		(at 142.24 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0d124d4-88b6-4476-a9ff-f304cb451d57")
 	)
 	(junction
 		(at 105.41 76.2)
@@ -4073,6 +4073,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 53.34) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a9f241-e317-4785-846a-b1d800e3e825")
+	)
+	(wire
+		(pts
 			(xy 26.67 35.56) (xy 26.67 34.29)
 		)
 		(stroke
@@ -4093,7 +4103,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 53.34) (xy 144.78 53.34)
+			(xy 138.43 53.34) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4310,16 +4320,6 @@
 			(type default)
 		)
 		(uuid "63396766-e962-422f-baa1-a8ab45626bfa")
-	)
-	(wire
-		(pts
-			(xy 144.78 53.34) (xy 157.48 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63f06987-2a87-4814-b5a5-6f6bf6b43b2a")
 	)
 	(wire
 		(pts
@@ -5142,6 +5142,18 @@
 		(uuid "ff49d0dc-7d5a-443b-a014-f6a4c67c46b6")
 	)
 	(rectangle
+		(start 147.32 38.1)
+		(end 196.85 124.46)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 53138608-0b4e-49ef-9359-19df6d2509f6)
+	)
+	(rectangle
 		(start 185.42 127)
 		(end 238.76 171.45)
 		(stroke
@@ -5211,10 +5223,10 @@
 	)
 	(text "Opamp I/O w/ Hysteresis"
 		(exclude_from_sim no)
-		(at 164.846 16.256 0)
+		(at 169.418 41.148 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "ae78a50d-74e9-47c0-ac07-8f4578c05071")
@@ -5262,6 +5274,17 @@
 		)
 		(uuid "eb6e9ee0-ed33-4894-a146-c071a5128809")
 	)
+	(label "{Bus1}"
+		(at 86.36 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0049f462-7919-4581-b2b5-6f909febb484")
+	)
 	(label "PWM_out"
 		(at 140.97 152.4 0)
 		(fields_autoplaced yes)
@@ -5279,6 +5302,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 132 1)
 			)
 			(justify left bottom)
 		)
@@ -5290,6 +5314,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 132 1)
 			)
 			(justify left bottom)
 		)
@@ -5301,6 +5326,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 132 1)
 			)
 			(justify left bottom)
 		)
@@ -5312,6 +5338,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 132 1)
 			)
 			(justify left bottom)
 		)
@@ -5356,6 +5383,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 132 1)
 			)
 			(justify left bottom)
 		)
@@ -5367,6 +5395,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 132 1)
 			)
 			(justify left bottom)
 		)
@@ -5384,7 +5413,7 @@
 		(uuid "9518e04c-c3e2-44b3-a608-ac46964697c5")
 	)
 	(label "PWM_out"
-		(at 62.23 53.34 0)
+		(at 66.04 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5400,6 +5429,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 132 1)
 			)
 			(justify left bottom)
 		)
@@ -5411,6 +5441,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 132 1)
 			)
 			(justify left bottom)
 		)
@@ -5433,6 +5464,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 132 1)
 			)
 			(justify left bottom)
 		)
@@ -6087,7 +6119,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZV55B5V1")
-		(at 144.78 57.15 270)
+		(at 142.24 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6095,7 +6127,7 @@
 		(dnp no)
 		(uuid "23cc59b3-6461-4c97-96bd-33ffd1e2ef8b")
 		(property "Reference" "D8"
-			(at 146.558 56.388 90)
+			(at 144.018 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6136,7 @@
 			)
 		)
 		(property "Value" "BZV55B5V1"
-			(at 146.558 58.928 90)
+			(at 144.018 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6145,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 140.335 57.15 0)
+			(at 137.795 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6154,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 144.78 57.15 0)
+			(at 142.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6163,7 @@
 			)
 		)
 		(property "Description" "5.1V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 144.78 57.15 0)
+			(at 142.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +6721,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 60.96 0)
+		(at 142.24 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6697,7 +6729,7 @@
 		(dnp no)
 		(uuid "46bd7daa-dbb8-4994-bc81-8b2f95ee1d82")
 		(property "Reference" "#PWR032"
-			(at 144.78 67.31 0)
+			(at 142.24 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,7 +6738,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.336 64.008 0)
+			(at 145.796 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 60.96 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 60.96 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +6764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 60.96 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,7 +10175,7 @@
 				(justify left top)
 			)
 		)
-		(pin "BATT" input
+		(pin "+BATT" passive
 			(at 48.26 187.96 180)
 			(effects
 				(font
@@ -10153,7 +10185,7 @@
 			)
 			(uuid "fb1d63c5-c704-4b0e-a15b-f75ad89c291a")
 		)
-		(pin "+IGN" input
+		(pin "+IGN" passive
 			(at 48.26 185.42 180)
 			(effects
 				(font

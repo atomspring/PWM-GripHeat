@@ -3091,7 +3091,7 @@
 		)
 		(uuid "b50bcfeb-8cbb-42dd-9999-93fa0ad54437")
 	)
-	(hierarchical_label "BATT"
+	(hierarchical_label "+BATT"
 		(shape input)
 		(at 33.02 96.52 180)
 		(fields_autoplaced yes)
@@ -3118,7 +3118,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 55.88 96.52 0)
+		(at 48.26 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3127,8 +3127,8 @@
 			(justify left bottom)
 		)
 		(uuid "c4c3b390-4489-4533-a1da-da3edf8325fa")
-		(property "Netclass" "Batt"
-			(at 56.5785 93.98 0)
+		(property "Netclass" "High Current"
+			(at 48.9585 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
