@@ -3,12 +3,12 @@ Rugged PWM control for a grip heater using an attiny85 and a beefy NMOS, support
 
 KiCad 8.0 Schematics and PCB files are (as expected) under the "hardware" folder, firmware is under the "firmware" folder.
 
-Cost for a single board was TODO: fill in total costs
+Cost for a single board was TODO: fill in total costs, total including optional mechanical components was TODO:
 
 ## Hardware
 <img src="hardware/Images/PCB Front.png" alt="Front render of PCB" width="500"/><img src="hardware/Images/PCB Back.png" alt="Render of backside for PCB" width="500"/>
 
-The BOM (bill-of-materials) is relatively short, holding all external components in TODO: Here, and the PCB components [here](<hardware/bom/BOM-PWM GripHeat-1.0.html>).
+The BOM (bill-of-materials) is relatively short, holding all mechanical components in [here](<hardware/bom/Mechanical BOM.md>), and the PCB components [here](<hardware/bom/BOM-PWM GripHeat-1.0.html>).
 
 Assembly should take about an hour's work with the right tools. I use lead-free solder paste for all my work, with the PCB itself using ENIG for all pads. Soldering is sped up by using a hand-held hot air reflow gun, but all pads are big enough to facilitate hand soldering.
 
